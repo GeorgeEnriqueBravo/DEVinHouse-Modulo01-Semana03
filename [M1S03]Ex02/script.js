@@ -1,5 +1,5 @@
-    let txtNome = window.document.getElementById("txtId")
-    let res = window.document.querySelector("div#res")
+let txtNome = window.document.getElementById("txtId")
+let res = window.document.querySelector("div#res")
 
 const mensagemOla = () => {
     let nome = txtNome.value
