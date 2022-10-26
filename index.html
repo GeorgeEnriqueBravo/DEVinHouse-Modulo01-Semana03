@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" type="image/x-icon" href="imagens/faviconDev.png">
+</head>
+
+<body>
+    <header>
+        <h1>Lista de Exercícios<br>Módulo 01 - Semana 03</h1>
+        <h2><a href="https://github.com/GeorgeEnriqueBravo/DEVinHouse-Modulo01-Semana03" rel="noopener noreferrer">Clique aqui</a> para retornar ao meu GitHub</h2>
+    </header>
+
+    <section>
+        <div>
+            <h3>Exercício 01 - Use Let, Const e Array</h3>
+            <p><strong>Descrição:</strong></p>
+
+            <p>Implemente uma função "procuraMinMax" que receba como parâmetro um array (numérico) e identifique o menor e o maior valor do mesmo.
+
+            <p>Imprima no console estes valores ou "Não é possível encontrar" quando não for possível.</p>
+
+            <p>Teste a função com as seguintes entradas:</p>
+
+            <ul>
+                <li>[56, 65, 64, -3, 23, 42, -15, 65, 14, 32, 78, 70, 47]</li> 
+                <li>[]</li> 
+                <li>[1]</li> 
+                <li>[1, -1]</li> 
+                <li>null</li>
+                <li>[-2,-2,-2,-2]</li>
+                <li>[20,10, 30]</li>
+            </ul>
+
+            <p>Obs.: Use let e const para declarar variáveis se for necessário. <br>
+            Extra: Faça com uma arrow function.</p>
+
+            <p>Concluído ✔️ <a href="[M1S03]Ex01/ex01.html" target="_blank" rel="noopener noreferrer">Clique aqui para visualizar</a></p>
+        </div>
+        <hr>
+        <div>
+            <h3>Exercício 02 - Mensagem Arrow</h3>
+            <p><strong>Descrição:</strong></p>
+
+            <p>Em um arquivo app.js (incluído em index.html) faça o seguinte:</p>
+
+            <p>No documento js faça uma arrow function para retornar uma mensagem (string) de "Olá, Mundo!".</p>
+
+            <p>Armazene esta arrow function em uma constante (const) de nome mensagemOla.</p>
+
+            <p>Chame a função mensagemOla e exiba o retorno desta função no console.</p>
+            
+            <p>Ajuste a função mensagemOla para que receba um parâmetro nome e retorne a mensagem "Olá, [nome]!".</p>
+
+            <p>Exemplo:</p>
+
+            <div class="code">
+            <code>mensagemOla("Mariana"); <br>
+                // "Olá, Mariana!"</code>
+            </div>
+
+            <p>Ao final, devemos ter uma função que monta uma mensagem de olá customizada com o nome informado por parâmetro.</p>
+
+            <p>Extra: Caso queira, podes experimentar criar um campo de texto, um botão e um parágrafo em index.html e fazer com que a função de nome seja executada ao pressionarmos o botão, que o nome pode seja lido do campo de texto e a mensagem seja exibida no parágrafo.</p>
+
+            <p>Concluído ✔️ <a href="[M1S03]Ex02/ex02.html" target="_blank" rel="noopener noreferrer">Clique aqui para visualizar</a></p>
+        </div>
+        <hr>
+        <div>
+            <h3>Exercício 03 - Concatenar Spread</h3>
+
+            <p><strong>Descrição:</strong></p>
+
+            <p>Para treinar os conceitos de Spread.</p>
+
+            <p>
+                Crie dois arquivos: <br>
+                - index.html <br>
+                - app.js
+            </p>
+
+            <p>Em app.js desenvolva uma função que receba dois arrays e realize a concatenação entre eles utilizando o operador Spread. <br>
+            Apresente o resultado no console.log(novoArray).</p>
+
+            <p>Exemplo:</p>
+
+            <div class="code">
+                <code>
+                    const novoArray = concatena([1, 2, 3], [4, 5, 6]); <br>
+                    console.log(novoArray); <br>
+                    // novo array deve ser [1, 2, 3, 4, 5, 6]
+                </code>
+            </div>
+
+            <p>Obs.: Em index.html deve ser incluído o arquivo app.js, para executarmos o script com a função.</p>
+
+            <p>Concluído ✔️ <a href="[M1S03]Ex03/ex03.html" target="_blank" rel="noopener noreferrer">Clique aqui para visualizar</a></p>
+
+        </div>
+        <hr>
+        <div>
+            <h3>Exercício 04 - Mesclando Objetos</h3>
+            <p><strong>Descrição:</strong></p>
+
+            <p>
+                Para exercitarmos spread com objetos: <br>
+                Em um arquivo app.js incluído em index.html escreva uma função de nome mesclaObjetos, que aceita dois objetos como parâmetro e retorna um novo objeto que contem todos os pares chave-valor do primeiro e do segundo objetos.
+            </p>
+
+            <p>Exemplo:</p>
+
+            <div class="code">
+                <code>
+                    const objUm = { a: 1, b: 2 }; <br>
+                    const objDois = { c: 3, d: 4 }; <br>
+                    const novoObjeto = mesclaObjetos(objUm, objDois); <br>
+                    console.log(novoObjeto); <br>
+                    // { a: 1, b: 2, c: 3, d: 4 }
+                </code>
+            </div>
+                
+            <p>Extra: Faça utilizando arrow function.</p>
+
+            <p>Concluído ✔️ <a href="[M1S03]Ex04/ex04.html" target="_blank" rel="noopener noreferrer">Clique aqui para visualizar</a></p>
+        </div>
+        <hr>
+        <div>
+            <h3>Exercício 05 - Parâmetros Infinitos</h3>
+            <p><strong>Descrição:</strong></p>
+
+            <p>Para treinar os conceitos de Rest.</p>
+
+            <p>
+                Crie dois arquivos: <br>
+                - index.html <br>
+                - app.js
+            </p>
+
+            <p>No arquivo apps.js, utilizando o operador Rest, crie uma função que receba como parâmetro uma quantidade indefinida de variáveis inteiras (números inteiros).</p>
+
+            <p>A função deve retornar a soma de todos os parâmetros (...). <br>
+            Após executada a função, o resultado deve ser exibido no console.</p>
+
+            <p>Exemplo:</p>
+
+            <div class="code">
+                <code>
+                    const resultado = somaTudo(1, 2, 3, 4); <br>
+                    console.log(resultado); <br>
+                    // resultado deve ser 10
+                </code>
+            </div>
+
+            <p>Obs.: Em index.html deve ser incluído o arquivo app.js, para rodar o script e executarmos a função.</p>
+
+            <p>Concluído ✔️ <a href="[M1S03]Ex05/ex05.html" target="_blank" rel="noopener noreferrer">Clique aqui para visualizar</a></p>
+
+        </div>
+        <hr>
+        <div>
+            <h3>Exercício 06 - Palíndromo</h3>
+            <p><strong>Descrição:</strong></p>
+
+            <p>
+                Um palindrome (palíndromo), segundo o dicionário Houaiss, <strong>"diz-se de frase ou palavra que se pode ler, indiferentemente, da esquerda para direita ou vice-versa"</strong>, como por exemplo: osso, Ana, radar.
+            </p>
+
+            <p>Ou seja, é uma palavra que quando lida de trás pra frente tem o mesmo significado.</p>
+
+            <p>Implemente uma função em JavaScript que receba uma string como parâmetro e retorne se determinada palavra é um palindromo ou não.</p>
+
+            <p>Exemplo:</p>
+
+            <div class="code">
+                <code>
+                    const teste1 = verificaPalindromo("ana"); <br>
+                    // true
+                    <br><br>
+                    const teste2 = verificaPalindromo("julia"); <br>
+                    // false
+                </code>
+            </div>
+
+            <p>
+                Obs.: Use let e const para declarar variáveis se for necessário. <br>
+                Extra: Faça com uma arrow function.
+            </p>
+
+            <p>Concluído ✔️ <a href="[M1S03]Ex06/ex06.html" target="_blank" rel="noopener noreferrer">Clique aqui para visualizar</a></p>
+        </div>
+        <hr>
+        <div>
+            <h3>Exercício 07 - Destruct</h3>
+            <p><strong>Descrição:</strong></p>
+
+            <p>Em um arquivo app.js incluído em index.html, crie um objeto com a seguinte estrutura:</p>
+
+            <div class="code">
+                <code>
+                    const pessoa = { <br>
+                        nome: 'Ada', <br>
+                        idade: 36 <br>
+                        profissao: 'matemática' <br>
+                      };
+                </code>
+            </div>
+
+            <p>Faça uma função que receba este objeto por parâmetro, desestruture-o no começo da função (utilizando destruct) criando três variáveis <strong>(nome, idade, profissao</strong>).</p>
+
+            <p>Faça ainda com que a função retorne uma string com a seguinte mensagem:</p>
+
+            <div class="code">
+                <code>
+                    "Esta é Ada, tem 36 anos e é matemática."
+                </code>
+            </div>
+
+            <p>Concatene as variáveis criadas com destruct para formar a mensagem.</p>
+
+            <p>Chame a função passando o objeto por parâmetro e exiba o retorno no console.</p>
+
+            <p>Extra: Faça o destruct acontecer diretamente na linha de declaração dos parâmetros da função. Por fim faça com uma arrow function.</p>
+
+            <p>Concluído ✔️ <a href="[M1S03]Ex07/ex07.html" target="_blank" rel="noopener noreferrer">Clique aqui para visualizar</a></p>
+
+        </div>
+        <hr>
+        <div>
+            <h3>Exercício 08 - Une, Dobra e Retorna</h3>
+            <p><strong>Descrição:</strong></p>
+
+            <p>Para exercitarmos rest e repetições com vetores:</p>
+
+            <p>Em um arquivo app.js incluído em index.html escreva uma função arrow e armazene-a em uma variável de nome uneDobraRetorna, que aceita um array de números e qualquer outra quantidade de números como parâmetro. A função deve retornar um novo vetor que começa com o vetor inicial concatenado com os outros parâmetros extra dobrados de valor.</p>
+
+            <p>Exemplo:</p>
+
+            <div class="code">
+                <code>
+                    const r1 = uneDobraRetorna([1, 2, 3], 4, 4) <br>
+                    console.log(r1) // [1, 2, 3, 8, 8] <br><br>
+                    
+                    const r2 = uneDobraRetorna([2], 10, 4, 8) <br>
+                    console.log(r2) // [2, 20, 8, 16] <br><br>
+                    
+                    const r3 = uneDobraRetorna([6, 8]) <br>
+                    console.log(r3) // [6, 8]
+                </code>
+            </div>
+
+            <p>Concluído ✔️ <a href="[M1S03]Ex08/ex08.html" target="_blank" rel="noopener noreferrer">Clique aqui para visualizar</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <a href="https://github.com/GeorgeEnriqueBravo" target="_blank" rel="noopener noreferrer">
+        <p>by George Bravo</p>
+        </a>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    background: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+header {
+    color: white;
+    text-align: center;
+}
+h2 a {
+    text-decoration: none;
+    color: rgb(0, 18, 90);
+}
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 650px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.342);
+}
+div.code {
+    font-family: Consolas,"courier new";
+    background-color: #f1f1f1;
+    padding: 12px;
+    font-size: 105%;
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
